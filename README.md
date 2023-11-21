@@ -128,6 +128,6 @@
 
 [hànội](https://github.com/ksukhorukov/HigherGround/blob/master/hànội/)
 
-### Вычисление Чисел Фибоначи
+### Вычисление Бесконечного Ряда Чисел Фибоначи
 
 [fibonacci](https://github.com/ksukhorukov/HigherGround/blob/master/fibonacci/)
