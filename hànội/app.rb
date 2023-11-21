@@ -10,8 +10,12 @@ def usage
   exit
 end 
 
+def command_line_arguments
+  [ARGV[0].to_i, ARGV[1]&.to_s&.to_sym || :purple]
+end
+
 usage if ARGV.size == 0
 
-n, color = ARGV[0].to_i, ARGV[1]&.to_s&.to_sym || :purple
+n, color = command_line_arguments
 
 Towers.new(n: n, color: color)
