@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative './dependencies.rb'
+require_relative 'dependencies'
 
 App::usage if ARGV.size.zero?
 
