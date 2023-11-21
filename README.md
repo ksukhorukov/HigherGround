@@ -127,3 +127,7 @@
 ### Ханойские Башни Произвольной Размерности
 
 [hànội](https://github.com/ksukhorukov/HigherGround/blob/master/hànội/)
+
+### Вычисление Чисел Фибоначи
+
+[fibonacci](https://github.com/ksukhorukov/HigherGround/blob/master/fibonacci/)
