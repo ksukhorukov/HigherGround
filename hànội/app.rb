@@ -5,7 +5,13 @@ require 'colorize'
 
 require_relative './towers.rb'
 
-Towers.new(5, :red)
-Towers.new(5, :green)
-Towers.new(5, :blue)
-Towers.new(5, :yellow)
+def usage 
+  puts "#{$0} 5 purple"
+  exit
+end 
+
+n, color = ARGV[0].to_i, ARGV[1].to_s.to_sym
+
+usage  if ARGV.size < 2 
+
+Towers.new(n: n, color: color)

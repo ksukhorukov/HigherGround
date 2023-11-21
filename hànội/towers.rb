@@ -1,5 +1,8 @@
 require_relative './tower.rb'
 
+require 'pry'
+require 'colorize'
+
 class Towers
   DEFAULT_WIDTH = 5
   DEFAULT_HEIGHT = 3
@@ -7,7 +10,7 @@ class Towers
   attr_reader :number_of_towers, :current_tower, :tower_color
   attr_accessor :towers_data, :maximum_shift, :current_shift
 
-  def initialize(n = 5, color = :red)
+  def initialize(n: 5, color: :red)
     @number_of_towers = n
     @current_tower = n
     @towers_data = []
