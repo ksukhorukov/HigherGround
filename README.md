@@ -14,7 +14,7 @@
 ### Главная Страница 
 [index.html](https://github.com/ksukhorukov/HigherGround/blob/master/index.html)
 
-### Каскадная Таблица Стилец
+### Каскадная Таблица Стилей
 
 [style.css](https://github.com/ksukhorukov/HigherGround/blob/master/style.css)
 
