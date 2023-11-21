@@ -115,6 +115,6 @@
 
 [style.css](https://github.com/ksukhorukov/HigherGround/blob/master/styles/style.css)
 
-### Цветные Ханойские Башни Произвольной Размерности
+### Ханойские Башни Произвольной Размерности
 
 [hànội](https://github.com/ksukhorukov/HigherGround/blob/master/hànội/)
