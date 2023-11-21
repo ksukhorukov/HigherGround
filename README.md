@@ -114,7 +114,7 @@
 
 [fibonacci_numbers.txt](https://github.com/ksukhorukov/HigherGround/blob/master/fibonacci/fibonacci_numbers.txt)
 
-# Исходник
+# Исходники
 
 ### Главная Страница 
 
