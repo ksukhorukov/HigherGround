@@ -2,6 +2,6 @@
 
 require_relative 'dependencies'
 
-App::usage if ARGV.size.zero?
+include Dependencies
 
-Towers.new App::command_line_arguments
+Towers.new App::arguments
