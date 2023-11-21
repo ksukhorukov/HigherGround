@@ -18,7 +18,7 @@ class Towers
   end 
 
   def draw
-    @current_tower = 5
+    @current_tower = @number_of_towers
 
     while current_tower > 0 do 
       current_width = DEFAULT_WIDTH * current_tower
