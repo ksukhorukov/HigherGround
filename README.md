@@ -11,5 +11,5 @@
 
 # Исходник
 
-[screen.png](https://github.com/ksukhorukov/HigherGround/blob/master/index.html)
+[index.html](https://github.com/ksukhorukov/HigherGround/blob/master/index.html)
 
