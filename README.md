@@ -15,9 +15,13 @@
 Как раз таки та самая "Надстройка Над Балконом", о которой и идёт речь в данном эссе.
 
 ```
-# Иллюстрация
+# Иллюстрация К Основной Формуле
 
 [formula.png](https://github.com/ksukhorukov/HigherGround/blob/master/imgs/formula.png)
+
+# Пример Фиолетовой Ханойской Башни Размерностью Пять
+
+[purple_tower_screen_example.png](https://github.com/ksukhorukov/HigherGround/blob/master/imgs/purple_tower_screen_example.png)
 
 # Исходник
 

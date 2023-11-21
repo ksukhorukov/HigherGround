@@ -5,7 +5,7 @@ require 'colorize'
 
 require_relative './towers.rb'
 
-Towers.new(10, :red)
-Towers.new(8, :green)
-Towers.new(6, :blue)
-Towers.new(3, :yellow)
+Towers.new(5, :red)
+Towers.new(5, :green)
+Towers.new(5, :blue)
+Towers.new(5, :yellow)
