@@ -1,10 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'pry'
-require 'colorize'
-
-require_relative './towers.rb'
-require_relative './app_helpers.rb'
+require_relative './dependencies.rb'
 
 App::usage if ARGV.size.zero?
 
