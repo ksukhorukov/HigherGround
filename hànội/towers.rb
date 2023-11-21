@@ -4,13 +4,14 @@ class Towers
   DEFAULT_WIDTH = 5
   DEFAULT_HEIGHT = 3
 
-  attr_reader :number_of_towers, :current_tower
+  attr_reader :number_of_towers, :current_tower, :tower_color
   attr_accessor :towers_data, :maximum_shift, :current_shift
 
-  def initialize(n = 5)
+  def initialize(n = 5, color = :red)
     @number_of_towers = n
     @current_tower = n
     @towers_data = []
+    @tower_color = color
     @current_shift = calculate_maximum_shift
 
     draw
@@ -33,6 +34,8 @@ class Towers
     while towers_data.size > 0 do 
       puts formated_string(towers_data.pop)
     end 
+
+    puts "\n\n"
   end
 
   private 
@@ -44,6 +47,6 @@ class Towers
   def formated_string(arr = [])
     result = arr.map { |e| (' ' * @current_shift) + e }.join("\n")
     @current_shift -= 2
-    result
+    result.colorize(color: tower_color, bold: :true)
   end 
 end 
