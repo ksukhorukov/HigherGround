@@ -10,7 +10,7 @@ def usage
   exit
 end 
 
-n, color = ARGV[0].to_i, ARGV[1].to_s.to_sym
+n, color = ARGV[0].to_i, ARGV[1].to_s.to_sym || :purple
 
 usage  if ARGV.size < 2 
 
