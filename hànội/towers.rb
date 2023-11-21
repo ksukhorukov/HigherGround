@@ -10,7 +10,9 @@ class Towers
   attr_reader :number_of_towers, :current_tower, :tower_color
   attr_accessor :towers_data, :maximum_shift, :current_shift
 
-  def initialize(n: 5, color: :purple)
+  def initialize(args)
+    n, color = args[:n], args[:color]
+    
     @number_of_towers = n
     @current_tower = n
     @towers_data = []

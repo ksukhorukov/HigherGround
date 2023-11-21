@@ -8,6 +8,4 @@ require_relative './app_helpers.rb'
 
 App::usage if ARGV.size.zero?
 
-n, color = App::command_line_arguments
-
-Towers.new(n: n, color: color)
+Towers.new App::command_line_arguments

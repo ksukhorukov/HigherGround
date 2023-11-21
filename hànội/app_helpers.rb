@@ -5,6 +5,6 @@ module App
   end 
 
   def self.command_line_arguments
-    [ARGV[0].to_i, ARGV[1]&.to_s&.to_sym || :purple]
+    { n: ARGV[0].to_i, color: ARGV[1]&.to_s&.to_sym || :purple }
   end
 end
