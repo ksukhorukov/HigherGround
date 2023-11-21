@@ -23,9 +23,8 @@ class Tower
   end 
 
   def draw
-    tower_data.push border
-    courpus_size.times { tower_data.push corpus }
-    tower_data.push border
+    form_tower
+    # display_tower
   end
 
   def calculate_geometry
@@ -39,6 +38,20 @@ class Tower
     @border = tabs + @border
     @corpus = tabs + @corpus
   end 
+
+  def form_tower
+    tower_data.push border
+    courpus_size.times { tower_data.push corpus }
+    tower_data.push border
+  end
+
+  def display_tower
+    @tower_data.each { |layer| puts layer }
+  end
+
+  def data
+    @tower_data
+  end 
 end
 
 
@@ -46,26 +59,33 @@ class Towers
   @@default_width = 5
   @@default_height = 3
 
-  attr_reader :number_of_towers, :current_tower
+  attr_reader :number_of_towers, :current_tower, :towers_data
 
   def initialize(n = 5)
     @number_of_towers = n
     @current_tower = n
+    @towers_data = []
 
     draw
   end 
 
   def draw
-    @current_tower = 1
+    @current_tower = 5
 
-    while current_tower <= number_of_towers do 
+    while current_tower > 0 do 
       current_width = @@default_width * current_tower
       current_height = @@default_height * current_tower
 
-      Tower.new(current_width, current_height, current_tower, number_of_towers).draw
+      instance = Tower.new(current_width, current_height, current_tower, number_of_towers).draw
+      towers_data.push instance.data
 
-      @current_tower += 1 
+      @current_tower -= 1 
     end 
+
+    towers_data.each { |e| puts e }
+    # towers.data.flatten!
+    # towers.data.reverse!
+
   end
 end 
 
