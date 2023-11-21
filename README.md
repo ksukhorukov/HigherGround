@@ -31,4 +31,3 @@
 ### Каскадная Таблица Стилей
 
 [style.css](https://github.com/ksukhorukov/HigherGround/blob/master/styles/style.css)
-
