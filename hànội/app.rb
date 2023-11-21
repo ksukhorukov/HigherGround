@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 
-require_relative 'dependencies'
-require_relative 'app_helpers'
+require 'require_all'
 
-include Dependencies
+require_all '.'
 
 Towers.new 
