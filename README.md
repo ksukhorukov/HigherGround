@@ -106,9 +106,18 @@
                                              *************************
 ```
 
+# Числа Фибоначи Как Выраженное Численное Представление Золотого Сечения
+
+[fibonacci](https://github.com/ksukhorukov/HigherGround/blob/master/fibonacci/)
+
+Результат вычисления ряда чисел Фибоначи до 1956-ти знаков (разрядов):
+
+[fibonacci_numbers.txt](https://github.com/ksukhorukov/HigherGround/blob/master/fibonacci/fibonacci_numbers.txt)
+
 # Исходник
 
 ### Главная Страница 
+
 [index.html](https://github.com/ksukhorukov/HigherGround/blob/master/index.html)
 
 ### Каскадная Таблица Стилей
