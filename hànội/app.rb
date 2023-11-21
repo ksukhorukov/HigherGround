@@ -59,7 +59,8 @@ class Towers
   @@default_width = 5
   @@default_height = 3
 
-  attr_reader :number_of_towers, :current_tower, :towers_data
+  attr_reader :number_of_towers, :current_tower
+  attr_accessor :towers_data
 
   def initialize(n = 5)
     @number_of_towers = n
@@ -76,7 +77,8 @@ class Towers
       current_width = @@default_width * current_tower
       current_height = @@default_height * current_tower
 
-      instance = Tower.new(current_width, current_height, current_tower, number_of_towers).draw
+      instance = Tower.new(current_width, current_height, current_tower, number_of_towers)
+      instance.draw
       towers_data.push instance.data
 
       @current_tower -= 1 
