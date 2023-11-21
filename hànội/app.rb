@@ -84,10 +84,9 @@ class Towers
       @current_tower -= 1 
     end 
 
-    towers_data.each { |e| puts e }
-    # towers.data.flatten!
-    # towers.data.reverse!
-
+    while towers_data.size > 0 do 
+      puts towers_data.pop 
+    end 
   end
 end 
 
