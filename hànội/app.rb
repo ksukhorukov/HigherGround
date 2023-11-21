@@ -6,12 +6,12 @@ require 'colorize'
 require_relative './towers.rb'
 
 def usage 
-  puts "#{$0} 5 purple"
+  puts "Usage: #{$0} 5 purple"
   exit
 end 
 
-n, color = ARGV[0].to_i, ARGV[1].to_s.to_sym || :purple
+usage if ARGV.size == 0
 
-usage  if ARGV.size < 2 
+n, color = ARGV[0].to_i, ARGV[1]&.to_s&.to_sym || :purple
 
 Towers.new(n: n, color: color)
