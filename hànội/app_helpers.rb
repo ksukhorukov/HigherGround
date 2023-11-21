@@ -1,4 +1,4 @@
-module App
+module AppHelpers
   def self.usage 
     puts "Usage: #{$0} 5 purple"
     exit

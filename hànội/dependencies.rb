@@ -8,4 +8,8 @@ module Dependencies
   def self.included(base) 
     ::App::usage if ARGV.size.zero?
   end
+
+  def self.arguments
+    @arguments ||= ::AppHelpers.arguments
+  end
 end
