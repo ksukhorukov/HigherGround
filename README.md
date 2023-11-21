@@ -17,7 +17,7 @@
 ```
 # Иллюстрация
 
-[screen.png](https://github.com/ksukhorukov/HigherGround/blob/master/screen.png)
+[formula.png](https://github.com/ksukhorukov/HigherGround/blob/master/formula.png)
 
 # Исходник
 
