@@ -10,7 +10,7 @@ class Towers
   attr_reader :number_of_towers, :current_tower, :tower_color
   attr_accessor :towers_data, :maximum_shift, :current_shift
 
-  def initialize(n: 5, color: :red)
+  def initialize(n: 5, color: )
     @number_of_towers = n
     @current_tower = n
     @towers_data = []
@@ -21,6 +21,8 @@ class Towers
   end 
 
   def draw
+    puts "\n\n"
+    
     @current_tower = @number_of_towers
 
     while current_tower > 0 do 
