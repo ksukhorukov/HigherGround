@@ -42,9 +42,8 @@ class Towers
   end 
 
   def formated_string(arr = [])
-    # binding.pry
     result = arr.map { |e| (' ' * @current_shift) + e }.join("\n")
-    @current_shift -= 1
+    @current_shift -= 2
     result
   end 
 end 
