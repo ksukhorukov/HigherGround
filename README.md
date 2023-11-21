@@ -17,7 +17,7 @@
 ```
 # Иллюстрация
 
-[formula.png](https://github.com/ksukhorukov/HigherGround/blob/master/formula.png)
+[formula.png](https://github.com/ksukhorukov/HigherGround/blob/master/imgs/formula.png)
 
 # Исходник
 
@@ -26,5 +26,5 @@
 
 ### Каскадная Таблица Стилей
 
-[style.css](https://github.com/ksukhorukov/HigherGround/blob/master/style.css)
+[style.css](https://github.com/ksukhorukov/HigherGround/blob/master/styles/style.css)
 
